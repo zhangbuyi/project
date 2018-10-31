@@ -173,10 +173,10 @@ function outbg(tdbg){
 tdbg.style.background='url(/static/item_out.gif)'
 tdbg.style.border='#B0690B 1px solid'
 }
-var sysmenu='<table width=80><tr><td id=library onMouseOver=overbg(library) onMouseOut=outbg(library)><a href="/library/library_modify/">图书馆信息</a></td></tr>\
-<tr><td id=manager onMouseOver=overbg(manager) onMouseOut=outbg(manager)><a href="/library/manager/">管理员设置</a></td></tr>\
-<tr><td id=para onMouseOver=overbg(para) onMouseOut=outbg(para)><a href="/library/parameter_modify/">参数设置</a></td></tr>\
-<tr><td id=bookcase onMouseOver=overbg(bookcase) onMouseOut=outbg(bookcase)><a href="/library/bookcase/">书架设置</a></td></tr>\
+var sysmenu='<table width=80><tr><td id=library onMouseOver=overbg(library) onMouseOut=outbg(library)><a href="/sys_settings/library_modify/">图书馆信息</a></td></tr>\
+<tr><td id=manager onMouseOver=overbg(manager) onMouseOut=outbg(manager)><a href="/sys_settings/manager/">管理员设置</a></td></tr>\
+<tr><td id=para onMouseOver=overbg(para) onMouseOut=outbg(para)><a href="/sys_settings/parameter_modify/">参数设置</a></td></tr>\
+<tr><td id=bookcase onMouseOver=overbg(bookcase) onMouseOut=outbg(bookcase)><a href="/sys_settings/bookcase/">书架设置</a></td></tr>\
 </table>'
 var readermenu='<table width=90><tr><td id=readerType onMouseOver=overbg(readerType) onMouseOut=outbg(readerType)><a href="/library/readerType/">读者类型管理</a></td></tr>\
 <tr><td id=reader onMouseOver=overbg(reader) onMouseOut=outbg(reader)><a href="/library/reader/">读者档案管理</a></td></tr>\
@@ -184,7 +184,7 @@ var readermenu='<table width=90><tr><td id=readerType onMouseOver=overbg(readerT
 var bookmenu='<table width=90><tr><td id=bookType onMouseOver=overbg(bookType) onMouseOut=outbg(bookType)><a href="/library/bookType/">图书类型设置</a></td></tr>\
 <tr><td id=book onMouseOver=overbg(book) onMouseOut=outbg(book)><a href="/library/book/">图书档案管理</a></td></tr>\
 </table>'
-var borrowmenu='<table width=60><tr><td id=Borrow onMouseOver=overbg(Borrow) onMouseOut=outbg(Borrow)><a href="/library/bookBorrow/">图书借阅</a></td></tr>\
+var borrowmenu='<table width=60><tr><td id=Borrow onMouseOver=overbg(Borrow) onMouseOut=outbg(Borrow)><a href="/book_operation/bookBorrow/">图书借阅</a></td></tr>\
 <tr><td id=renew onMouseOver=overbg(renew) onMouseOut=outbg(renew)><a href=/library/bookRenew/>图书续借</a></td></tr>\
 <tr><td id=giveback onMouseOver=overbg(giveback) onMouseOut=outbg(giveback)><a href=/library/bookBack/>图书归还</a></td></tr>\
 </table>'
